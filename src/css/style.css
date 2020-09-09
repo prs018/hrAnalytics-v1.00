@@ -1,0 +1,395 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+body {
+  /* font-size: 16px; */
+  font-family: 'Poppins', sans-serif;
+  background-color: #f5f6fa; /*lynx white british palette*/
+  /* background-color: #292929; */
+}
+
+ul,li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: #eee;
+}
+
+.main {}
+
+.container {
+  margin: 0 auto;
+  background-image: url('../assets/img/container-bg-textures/purple-curve.png');
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-position: left;
+}
+
+.header {
+  width: 100%;
+  height: 3rem;
+  display: flex;
+  justify-content: space-between;
+  background-color: rgba(0,0,0,0.8);
+  position: fixed;
+  z-index: 1;
+}
+
+.header__logo-img {
+  width: 4.5rem;
+  height: 4.5rem;
+}
+
+/*------------------Menú-------------------*/
+.header__nav-bar {    /*conjunto del menú*/
+  margin-right: 20px;
+  line-height: 3rem;
+}
+
+.nav-bar-list {               /*unordered list del menú*/
+}
+
+.nav-bar__link {  /*anclas A del menú*/
+  display: inline-flex;
+
+}
+
+.nav-bar__item {       /*list item del menu*/
+  color: white;
+  font-weight: 400;
+  padding: 0  1rem;
+}
+
+.nav-bar__link:hover {
+  background-color: #5F5FD3; /**/
+}
+
+.header__dropdown {
+  line-height: 3rem;
+  width: 5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header__dropdown-list {
+  display: none;
+  background-color: rgba(0,0,0,0.8);
+  text-align: center;
+  color: #eee;
+}
+
+.header__dropdown-img {
+}
+
+.header__dropdown:hover > ul {
+  display: block;
+}
+
+/*-------------------------------------*/
+
+.estrategia {
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+}
+
+.estrategia__info {
+  margin: auto;
+  background-color: white;
+  border-radius: 10px;
+  padding: 3.125rem;
+  box-shadow: 2px 2px 20px rgba(0,0,0,0.2);
+}
+
+.estrategia__info-title {
+  color: #4b6584; /*blue horizon german palette*/
+  font-size: 4rem;
+  font-weight: 700; /*100 , 300 , 500 , 700*/
+}
+
+.estrategia__info-description {
+  margin-top: 1rem;
+  color: #a5b1c2;
+  font-weight: 300; /*100 , 300 , 500 , 700*/
+}
+
+.estrategia__info-button {
+  cursor: pointer;
+  height: 2.5rem;
+  margin-top: 2rem;
+  text-align: center;
+  background-color: #3867d6; /*royal blue german pallet*/
+  border-radius: 10px;
+  box-shadow: 3px 3px 8px rgba(0,0,0,0.8);
+}
+
+.estrategia__info-button:hover {
+  background-color: #fd9644; /*orange hibiscus german pallet*/
+  box-shadow: 4px 4px 10px #fc5c65; /*fusion red german pallet*/
+}
+
+.estrategia__info-button-link {
+  color: white;
+  line-height: 2.5;
+}
+
+.estrategia__img {
+  display: block;
+}
+
+/*--------------Concepto----------------------*/
+
+.concepto {
+  height: 100vh;
+  background-color: white; /*midnight blue flat ui palette*/;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.concepto__container {
+  width: 90%;
+  height: 70%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: left;
+}
+
+.concepto__container-card {
+  height: 80%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-column-gap: 2rem;
+}
+
+.concepto__container-card-top {
+  display: flex;
+  justify-content: center;
+  margin-top: 30%;
+}
+
+.concepto__container-card-logo {
+  width: 5rem;
+  height: 5rem;
+  background-color: #ccc;
+  border-radius: 50%;
+}
+
+.concepto__container-card-a {
+  border-radius: 5px;
+  height: 90%;
+  background-image: url('../assets/img/section/idea-1.jpg');
+  background-size: 100% 35%;
+  background-repeat: no-repeat;
+  background-position: top;
+  background-color: #e67e22;
+  color: #eee;
+  padding: 3rem;
+}
+
+.concepto__container-card-b{
+  border-radius: 5px;
+  height: 90%;
+  background-color: white;
+  background-image: url('../assets/img/section/analisis.jpg');
+  background-size: 100% 35%;
+  background-repeat: no-repeat;
+  background-position: top;
+  background-color: #e67e22;
+  color: #eee;
+  padding: 3rem;
+}
+
+.concepto__container-card-c {
+  border-radius: 5px;
+  height: 90%;
+  background-color: white;
+  background-image: url('../assets/img/section/comotrabajamos.jpg');
+  background-size: 100% 35%;
+  background-repeat: no-repeat;
+  background-position: top;
+  background-color: #e67e22;
+  color: #eee;
+  padding: 3rem;
+}
+
+.concepto__container-card-logo{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.concepto__container-card-titulo {
+  text-align:justify;
+  margin-top: 2rem;
+}
+
+.concepto__container-card-description {
+  font-weight: 300;
+  font-size: 0.9rem;
+
+}
+
+/*----------------trabajos---------------------*/
+
+.trabajos {
+  height: 100vh;
+  background-color: #ccc;
+}
+
+.trabajos__titulos {
+
+}
+
+.trabajos__descripcion {
+
+}
+
+.trabajos__slider {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.trabajos__slider-container {
+  width: 90%;
+  height: 90%;
+  display: grid;
+  grid-template-columns: 30% 70%;
+  justify-content: center;
+  align-items: center;
+}
+
+.trabajos__slider-container-left {
+  margin: 0 auto;
+}
+
+.trabajos__slider-container-right  {
+  background-color: white;
+  display: grid;
+  grid-template-rows: 90% 10%;
+  overflow: hidden;
+}
+
+.trabajos__buttons {
+  margin: 0 auto;
+}
+
+.trabajos__slider-button{
+}
+
+.my-slides {
+  width: 70%;
+  height: auto;
+}
+
+/*----------------quienes somos--------------*/
+
+.quienesSomos {
+  height: 200vh;
+  background-color: white;
+  display: block;
+  justify-content: center;
+  align-items: center;
+  font-weight: 300;
+}
+
+.quienesSomos__equipo {
+  padding-top: 6rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.quienesSomos__equipo-director {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.quienesSomos__equipo-director-img {
+  width: 12rem;
+  height: 12rem;
+  background-image: url('../assets/img/section/equipo/avatar.jpg');
+  background-size: cover;
+  background-repeat:  no-no-repeat;
+  background-position: center;
+  border-radius: 50%;
+}
+
+.quienesSomos__equipo-director-datos {
+  margin-left: 3rem;
+}
+
+.quienesSomos__presentacion {
+  margin: 3rem 6rem;
+}
+
+.recomendaciones {
+  height: 40%;
+ display: flex;
+ justify-content: center;
+ align-items:center;
+ background-color: #eee;
+}
+
+.recomendaciones__slider-button {
+  border: none;
+  height: 4rem;
+  width: 4rem;
+  border-radius: 50%;
+  margin: 1rem;
+}
+
+.reco-my-slides {
+  width: 50%;
+  height: auto;
+}
+
+/*----------------footer---------------------*/
+
+.footer {
+  height: 20vh;
+  background-color: #313132;
+  color: #eee;
+  display: grid;
+}
+
+.footer__contacto {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: left;
+}
+
+.contacto__email-icon {
+  width: 30px;
+  height: 30px;
+  margin-right: 3rem;
+  margin-left: 1rem;
+}
+
+.contacto__email-redes {
+  margin-left: 1rem;
+}
+
+.attribution {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.attribution__coder-name {
+  font-size: 0.7rem;
+}
