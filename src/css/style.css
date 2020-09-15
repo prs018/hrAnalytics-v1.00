@@ -25,10 +25,10 @@ a {
 
 .container {
   margin: 0 auto;
-  background-image: url('../assets/img/container-bg-textures/purple-curve.png');
+  /* background-image: url('../assets/img/container-bg-textures/purple-curve.png');
   background-repeat: no-repeat;
-  background-size: auto;
-  background-position: left;
+  background-size: 50%;
+  background-position: left; */
 }
 
 .header {
@@ -67,7 +67,7 @@ a {
 }
 
 .nav-bar__link:hover {
-  background-color: #5F5FD3; /**/
+  background-color: #5F5FD3;
 }
 
 .header__dropdown {
@@ -88,11 +88,19 @@ a {
 .header__dropdown-img {
 }
 
-.header__dropdown:hover > ul {
+/* .header__dropdown:hover > ul {
   display: block;
-}
+} */
 
-/*-------------------------------------*/
+/*--------------inicio-----------------------*/
+
+.container__estrategia {
+  width: 100%;
+  background-image: url('../assets/img/container-bg-textures/purple-curve.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: left;
+}
 
 .estrategia {
   width: 90%;
@@ -147,7 +155,7 @@ a {
 /*--------------Concepto----------------------*/
 
 .concepto {
-  height: 100vh;
+  height: 120vh;
   background-color: white; /*midnight blue flat ui palette*/;
   text-align: center;
   display: flex;
@@ -157,7 +165,7 @@ a {
 
 .concepto__container {
   width: 90%;
-  height: 70%;
+  height: 90%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -242,17 +250,15 @@ a {
 /*----------------trabajos---------------------*/
 
 .trabajos {
-  height: 100vh;
+  height: 120vh;
   background-color: #ccc;
+  text-align: center;
+  background-image: url('../assets/img/container-bg-textures/pattern-curve.svg');
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: contain;
 }
 
-.trabajos__titulos {
-
-}
-
-.trabajos__descripcion {
-
-}
 
 .trabajos__slider {
   width: 100%;
@@ -263,33 +269,28 @@ a {
 }
 
 .trabajos__slider-container {
-  width: 90%;
-  height: 90%;
-  display: grid;
-  grid-template-columns: 30% 70%;
+  width: 100%;
+  height: 100vh;
+  display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.trabajos__slider-container-left {
-  margin: 0 auto;
+.trabajos__slider-button {
+  width: 5rem;
+  height: 5rem;
+  border: none;
+  margin: 0 3rem;
+  border-radius: 50%;
 }
 
-.trabajos__slider-container-right  {
+.trabajos__slider-button:hover {
+  border: none;
   background-color: white;
-  display: grid;
-  grid-template-rows: 90% 10%;
-  overflow: hidden;
 }
 
-.trabajos__buttons {
-  margin: 0 auto;
-}
 
-.trabajos__slider-button{
-}
-
-.my-slides {
+.graph-my-slides {
   width: 70%;
   height: auto;
 }
@@ -297,12 +298,17 @@ a {
 /*----------------quienes somos--------------*/
 
 .quienesSomos {
+  padding-top: 2rem;
   height: 200vh;
   background-color: white;
   display: block;
   justify-content: center;
   align-items: center;
   font-weight: 300;
+  background-image: url('../assets/img/container-bg-textures/pattern-bg.svg');
+  background-repeat: no-repeat;
+  background-position:  top right;
+
 }
 
 .quienesSomos__equipo {
@@ -337,11 +343,13 @@ a {
 }
 
 .recomendaciones {
-  height: 40%;
+ height: 40%;
  display: flex;
  justify-content: center;
  align-items:center;
  background-color: #eee;
+ background-image: url('../assets/img/container-bg-textures/bg-intro-desktop.png');
+ background-size: cover;
 }
 
 .recomendaciones__slider-button {
@@ -357,10 +365,32 @@ a {
   height: auto;
 }
 
+/*----------------novedades------------------*/
+.novedades {
+  height: 450vh;
+  width: 100%;
+}
+
+.novedades__container {
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.novedades__posts {
+  text-align: center;
+}
+
+.novedades__post-card {
+  width: 80%;
+  padding-top: 3rem;
+}
+
 /*----------------footer---------------------*/
 
 .footer {
-  height: 20vh;
+  height: 50vh;
   background-color: #313132;
   color: #eee;
   display: grid;
