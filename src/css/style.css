@@ -293,6 +293,7 @@ a {
 .graph-my-slides {
   width: 70%;
   height: auto;
+  max-height: 80%;
 }
 
 /*----------------quienes somos--------------*/
@@ -374,18 +375,25 @@ a {
 
 .novedades__container {
   background-color: white;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  margin: 3rem;
 }
 
 .novedades__posts {
-  text-align: center;
+  margin-top: 3rem;
+  border: 1px solid black;
+  border-radius: 15px;
+  box-shadow: 3px 3px 3px 6px #eee;
+  display: grid;
+  grid-template-columns: 40% 60%;
 }
 
-.novedades__post-card {
-  width: 80%;
-  padding-top: 3rem;
+.novedades__img {
+  margin: 0 auto;
+}
+
+.novedades__text {
+  padding: 3rem;
+  text-align: left;
 }
 
 /*----------------footer---------------------*/
