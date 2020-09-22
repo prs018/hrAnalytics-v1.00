@@ -6,10 +6,8 @@
 }
 
 body {
-  /* font-size: 16px; */
   font-family: 'Poppins', sans-serif;
-  background-color: #f5f6fa; /*lynx white british palette*/
-  /* background-color: #292929; */
+  /* background-color: #f5f6fa; /*lynx white british palette*/ */
 }
 
 ul,li {
@@ -21,14 +19,12 @@ a {
   color: #eee;
 }
 
-.main {}
+.main {
+  background-color: #273250;
+}
 
 .container {
   margin: 0 auto;
-  /* background-image: url('../assets/img/container-bg-textures/purple-curve.png');
-  background-repeat: no-repeat;
-  background-size: 50%;
-  background-position: left; */
 }
 
 .header {
@@ -88,14 +84,11 @@ a {
 .header__dropdown-img {
 }
 
-/* .header__dropdown:hover > ul {
-  display: block;
-} */
-
 /*--------------inicio-----------------------*/
 
 .container__estrategia {
   width: 100%;
+  height: 100vh;
   background-image: url('../assets/img/container-bg-textures/purple-curve.png');
   background-repeat: no-repeat;
   background-size: contain;
@@ -110,6 +103,9 @@ a {
 
 .estrategia__info {
   margin: auto;
+  /* width: 60%; */
+  width: 30rem;
+  height: 80vh;
   background-color: white;
   border-radius: 10px;
   padding: 3.125rem;
@@ -149,40 +145,30 @@ a {
 }
 
 .estrategia__img {
-  display: block;
+  /* width: 80%;
+  height: 100vh; */
+  width: 60rem;
+  height: 100vh;
+  background-image: url('../assets/img/section/elegida.png');
+  background-repeat: no-repeat;
+  background-size: contain;
 }
 
 /*--------------Concepto----------------------*/
 
+/*rehacer toda la seccion*/
+
 .concepto {
-  height: 120vh;
-  background-color: white; /*midnight blue flat ui palette*/;
-  text-align: center;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.concepto__container {
   width: 90%;
-  height: 90%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: left;
-}
-
-.concepto__container-card {
-  height: 80%;
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-column-gap: 2rem;
+  height: 120vh;
+  /* background-color: white; */
+  text-align: center;
 }
 
 .concepto__container-card-top {
-  display: flex;
+  /* display: flex;
   justify-content: center;
-  margin-top: 30%;
+  margin-top: 30%; */
 }
 
 .concepto__container-card-logo {
@@ -194,9 +180,10 @@ a {
 
 .concepto__container-card-a {
   border-radius: 5px;
+  width: 30%;
   height: 90%;
   background-image: url('../assets/img/section/idea-1.jpg');
-  background-size: 100% 35%;
+  background-size: contain;
   background-repeat: no-repeat;
   background-position: top;
   background-color: #e67e22;
@@ -250,13 +237,22 @@ a {
 /*----------------trabajos---------------------*/
 
 .trabajos {
-  height: 120vh;
-  background-color: #ccc;
+  color: white;
+  height: 230vh;
   text-align: center;
   background-image: url('../assets/img/container-bg-textures/pattern-curve.svg');
   background-repeat: no-repeat;
   background-position: bottom;
   background-size: contain;
+  padding-top: 2rem;
+}
+
+.trabajos__title {
+  font-size: 2rem;
+}
+
+.trabajos__video {
+  margin: 3rem 0;
 }
 
 
@@ -301,7 +297,6 @@ a {
 .quienesSomos {
   padding-top: 2rem;
   height: 200vh;
-  background-color: white;
   display: block;
   justify-content: center;
   align-items: center;
@@ -309,11 +304,12 @@ a {
   background-image: url('../assets/img/container-bg-textures/pattern-bg.svg');
   background-repeat: no-repeat;
   background-position:  top right;
-
+  color: white;
 }
 
 .quienesSomos__equipo {
-  padding-top: 6rem;
+  height: 8rem;
+  background-color: #495057;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -344,7 +340,7 @@ a {
 }
 
 .recomendaciones {
- height: 40%;
+ height: 30%;
  display: flex;
  justify-content: center;
  align-items:center;
@@ -368,28 +364,50 @@ a {
 
 /*----------------novedades------------------*/
 .novedades {
-  height: 450vh;
-  width: 100%;
-
+  height: 180vh;
+  width: 85%;
+  margin: 0 auto;
 }
 
 .novedades__container {
-  background-color: white;
   margin: 3rem;
+  margin-top: 6rem;
+}
+
+.novedades__title {
+  color: white;
+  text-align:  center;
+  font-size: 3rem;
 }
 
 .novedades__posts {
+  color: white;
   margin-top: 3rem;
   border: 1px solid black;
   border-radius: 15px;
-  box-shadow: 3px 3px 3px 6px #eee;
   display: grid;
-  grid-template-columns: 40% 60%;
+  grid-template-columns: 30% 70%;
 }
 
-.novedades__img {
-  margin: 0 auto;
+.novedades__post-1 {
+  border-radius: 15px 0 0 15px;
+  /* border-top-left-radius: 15px:  */
+  background-image: url('../assets/img/section/novedades/nov-1.jpeg');
+  background-size: cover;
 }
+
+.novedades__post-2 {
+  border-radius: 15px 0 0 15px;
+  background-image: url('../assets/img/section/novedades/nov-2.jpeg');
+  background-size: cover;
+}
+
+.novedades__post-3 {
+  border-radius: 15px 0 0 15px;
+  background-image: url('../assets/img/section/novedades/nov-3.jpeg');
+  background-size: cover;
+}
+
 
 .novedades__text {
   padding: 3rem;
@@ -399,23 +417,51 @@ a {
 /*----------------footer---------------------*/
 
 .footer {
-  height: 50vh;
+  height: 100vh;
   background-color: #313132;
   color: #eee;
-  display: grid;
+  display: flex;
+  font-weight: 300;
 }
 
-.footer__contacto {
+.footer__left {
+  margin: 0 auto;
+  margin-top: 5rem;
+  width: 25%;
+}
+
+.footer__left-top {
   display: flex;
+}
+
+.footer__left-top-description {
+  margin-top: 2rem;
+  line-height: 2rem;
+}
+
+.footer__logo {
+  width: 5rem;
+  height: auto;
+}
+
+.footer__title {
+  padding: 2rem;
+}
+.footer__redes {
+  margin-right: 4rem;
+  display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
-  text-align: left;
 }
+
+.footer__links {
+}
+
 
 .contacto__email-icon {
   width: 30px;
   height: 30px;
-  margin-right: 3rem;
   margin-left: 1rem;
 }
 
@@ -423,7 +469,11 @@ a {
   margin-left: 1rem;
 }
 
+
+/*--------------attribution---------------*/
 .attribution {
+  height: 10vh;
+  background-color: black;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -431,4 +481,26 @@ a {
 
 .attribution__coder-name {
   font-size: 0.7rem;
+}
+
+/*------------mediaqueries--------------*/
+
+@media only screen and (max-width: 600px) {
+
+  .estrategia__img {
+    display: none;
+  }
+
+  .concepto__container {
+    flex-direction: column;
+  }
+
+  .concepto__container-card {
+   grid-template-rows: 1fr 1fr 1fr;
+  }
+  /* .concepto__container-card {
+    background-color: pink;
+    flex-direction: column;
+  } */
+
 }
