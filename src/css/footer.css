@@ -32,10 +32,10 @@
 }
 
 .footer__logo {
-  width: 5rem;
+  width: 6rem;
   height: auto;
   background-color: #ccc;
-  padding: 1rem;
+  padding: 0.8rem;
   border-radius: 5px;
 }
 

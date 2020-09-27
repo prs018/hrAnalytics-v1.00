@@ -10,6 +10,9 @@
 }
 
 .header__logo-img {
+  background-color: #ccc;
+  border-bottom-right-radius: 50%;
+  border-bottom-left-radius: 50%;
   width: 4.5rem;
   height: 4.5rem;
 }
