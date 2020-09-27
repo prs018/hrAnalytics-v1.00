@@ -1,6 +1,5 @@
 /*----------------novedades------------------*/
 .novedades {
-  /* height: 180vh; */
   height: auto;
   width: 85%;
   margin: 0 auto;
@@ -40,6 +39,7 @@
 
 .novedades__img-1:hover {
   transform: scale(0.8);
+  transition: 0.5s;
   position:  absolute;
   float: left;
   top:100;
@@ -60,7 +60,8 @@
 }
 
 .novedades__img-2:hover {
-  transform: scale(0.6);
+  transform: scale(0.8);
+  transition: 0.5s;
   position:  absolute;
   float: left;
   top:100;
@@ -81,7 +82,8 @@
 }
 
 .novedades__img-3:hover {
-  transform: scale(0.6);
+  transform: scale(0.8);
+  transition: 0.5s;
   position:  absolute;
   float: left;
   top:100;
