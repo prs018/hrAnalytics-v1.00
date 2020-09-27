@@ -1,0 +1,58 @@
+/*----------------trabajos---------------------*/
+
+.trabajos {
+  color: white;
+  height: 230vh;
+  text-align: center;
+  background-image: url('../assets/img/container-bg-textures/pattern-curve.svg');
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: contain;
+  padding-top: 2rem;
+}
+
+.trabajos__title {
+  font-size: 2rem;
+}
+
+.trabajos__video {
+  margin: 3rem 0;
+}
+
+
+.trabajos__slider {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.trabajos__slider-container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.trabajos__slider-button {
+  width: 3.5rem;
+  height: 3.5rem;
+  border: none;
+  margin: 0 3rem;
+  border-radius: 50%;
+  background-color: RGBA(255,255,255,0.2);
+}
+
+.trabajos__slider-button:hover {
+  border: none;
+  background-color: white;
+}
+
+
+.graph-my-slides {
+  width: 70%;
+  height: auto;
+  max-height: 80%;
+}

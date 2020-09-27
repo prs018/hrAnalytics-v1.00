@@ -1,0 +1,41 @@
+/*------------------Menú-------------------*/
+.header__nav-bar {    /*conjunto del menú*/
+  margin-right: 20px;
+  line-height: 3rem;
+}
+
+.nav-bar-list {               /*unordered list del menú*/
+}
+
+.nav-bar__link {  /*anclas A del menú*/
+  display: inline-flex;
+
+}
+
+.nav-bar__item {       /*list item del menu*/
+  color: white;
+  font-weight: 400;
+  padding: 0  1rem;
+}
+
+.nav-bar__link:hover {
+  background-color: #5F5FD3;
+}
+
+.header__dropdown {
+  line-height: 3rem;
+  width: 5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header__dropdown-list {
+  display: none;
+  background-color: rgba(0,0,0,0.8);
+  text-align: center;
+  color: #eee;
+}
+
+.header__dropdown-img {
+}

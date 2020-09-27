@@ -1,0 +1,85 @@
+/*--------------Concepto----------------------*/
+
+.concepto {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.concepto__card-title {
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+.concepto__card-description {
+  font-weight: 300;
+  line-height: 1.5rem;
+}
+
+.concepto__card {
+  width: 30%;
+  height: 80vh;
+  margin: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.concepto__card-fondoDeTexto {
+  background-color: rgba(0,0,0,0.9);
+  width: 100%;
+  min-height: 55vh;
+  height: auto;
+  color: white;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.concepto__card-background {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.ccbga {
+  background-image: url('../assets/img/section/idea-1.jpg');
+}
+
+.ccbgb {
+  background-image: url('../assets/img/section/analisis.jpg');
+}
+
+.ccbgc {
+  background-image: url('../assets/img/section/comotrabajamos.jpg');
+}
+
+.concepto__logo {
+  width: 4rem;
+  height: 4rem;
+  border-radius: 50%;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 1.5rem;
+}
+
+
+
+@media only screen and (max-width: 800px) {
+
+  .concepto {
+    flex-direction: column;
+    height: 300vh;
+  }
+
+  .concepto__card {
+    width: 90%;
+  }
+}

@@ -1,0 +1,89 @@
+/*----------------footer---------------------*/
+
+.footer {
+  height: 100vh;
+  background-color: #313132;
+  color: #eee;
+  display: flex;
+  font-weight: 300;
+}
+
+.footer__left {
+  margin: 0 auto;
+  margin-top: 5rem;
+  width: 25%;
+}
+
+.footer__left-top {
+  display: flex;
+  align-items: center;
+  padding: 1rem;
+}
+
+.footer__left-top-description {
+  margin-top: 2rem;
+  line-height: 2rem;
+}
+
+.footer__logo-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer__logo {
+  width: 5rem;
+  height: auto;
+  background-color: #ccc;
+  padding: 1rem;
+  border-radius: 5px;
+}
+
+.footer__title {
+  padding: 2rem;
+  font-weight: bold;
+}
+.footer__redes {
+  margin-right: 4rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer__links {
+}
+
+.footer__links-title {
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.footer__links-description {
+  margin-top: 2rem;
+}
+
+
+.contacto__email-icon {
+  width: 30px;
+  height: 30px;
+  margin-left: 1rem;
+}
+
+.contacto__email-redes {
+  margin-left: 1rem;
+}
+
+@media only screen and (max-width: 800px) {
+
+  .footer {
+    height: 150vh;
+    flex-direction: column;
+  }
+
+  .footer__left {
+    width: 70%;
+    margin-bottom: 3rem;
+  }
+
+}

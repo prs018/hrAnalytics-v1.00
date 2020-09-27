@@ -1,0 +1,75 @@
+/*----------------quienes somos--------------*/
+
+.quienesSomos {
+  padding-top: 2rem;
+  height: 200vh;
+  display: block;
+  justify-content: center;
+  align-items: center;
+  font-weight: 300;
+  /* background-image: url('../assets/img/container-bg-textures/pattern-bg.svg');
+  background-repeat: no-repeat;
+  background-position:  top right; */
+  color: white;
+}
+
+.quienesSomos__equipo {
+  height: 8rem;
+  background-color: #495057;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.quienesSomos__equipo-director {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.quienesSomos__equipo-director-img {
+  width: 12rem;
+  height: 12rem;
+  background-image: url('../assets/img/section/equipo/avatar.jpg');
+  background-size: cover;
+  background-repeat:  no-no-repeat;
+  background-position: center;
+  border-radius: 50%;
+}
+
+.quienesSomos__equipo-director-datos {
+  margin-left: 3rem;
+}
+
+.quienesSomos__presentacion {
+  margin: 3rem 6rem;
+}
+
+.recomendaciones {
+ height: 30%;
+ display: flex;
+ justify-content: center;
+ align-items:center;
+ background-color: #eee;
+ background-image: url('../assets/img/container-bg-textures/bg-intro-desktop.png');
+ background-size: cover;
+}
+
+.recomendaciones__slider-button {
+  border: none;
+  height: 3.5rem;
+  width: 3.5rem;
+  border-radius: 50%;
+  margin: 1rem;
+  background-color: rgba(39,50,80,0.1);
+}
+
+.recomendaciones__slider-button:hover {
+  background-color: white;
+}
+
+
+.reco-my-slides {
+  width: 50%;
+  height: auto;
+}
