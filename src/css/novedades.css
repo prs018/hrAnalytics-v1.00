@@ -38,7 +38,7 @@
 }
 
 .novedades__img-1:hover {
-  transform: scale(0.8);
+  transform: scale(0.7);
   transition: 0.5s;
   position:  absolute;
   float: left;
@@ -60,7 +60,7 @@
 }
 
 .novedades__img-2:hover {
-  transform: scale(0.8);
+  transform: scale(0.7);
   transition: 0.5s;
   position:  absolute;
   float: left;
@@ -82,13 +82,35 @@
 }
 
 .novedades__img-3:hover {
-  transform: scale(0.8);
+  transform: scale(0.7);
   transition: 0.5s;
   position:  absolute;
   float: left;
   top:100;
   left: 0;
 }
+
+.novedades__post-4 {
+  border-radius: 15px 0 0 15px;
+  background-color: white;
+  display: flex;
+  align-items: center;
+}
+
+.novedades__img-4 {
+  width: 100%;
+  height: auto;
+}
+
+.novedades__img-4:hover {
+  transform: scale(0.7);
+  transition: 0.5s;
+  position:  absolute;
+  float: left;
+  top:100;
+  left: 0;
+}
+
 
 
 .novedades__text {
