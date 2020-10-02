@@ -107,5 +107,8 @@
     font-size: 3rem;
   }
 
+  .estrategia__img-fondo {
+    display: none;
+  }
 
 }
