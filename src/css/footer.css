@@ -80,7 +80,7 @@
 @media only screen and (max-width: 800px) {
 
   .footer {
-    height: 150vh;
+    height: auto;
     flex-direction: column;
   }
 
