@@ -76,10 +76,17 @@
 
   .concepto {
     flex-direction: column;
-    height: 300vh;
+    height: auto;
+    font-size: 1rem;
   }
 
   .concepto__card {
-    width: 90%;
+    width: 95%;
   }
+
+  .concepto__card-description {
+    font-weight: 300;
+    line-height: 1rem;
+  }
+
 }

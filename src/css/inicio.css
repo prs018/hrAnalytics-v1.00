@@ -77,3 +77,35 @@
 .estrategia__img-fondo {
   width: 85%;
 }
+
+/*media querys*/
+@media only screen and (max-width: 800px) {
+  .container__estrategia {
+    width: 100%;
+    height: auto;
+    background-image: none;
+  }
+
+  .container__estrategia-2 {
+    background-image: none;
+  }
+
+  .estrategia {
+    width: 90%;
+    height: auto;
+    margin: 0 auto;
+    display: flex;
+  }
+
+  .estrategia__info {
+    width: 100%;
+    height: auto;
+    border: 1px solid white;
+  }
+
+  .estrategia__info-title {
+    font-size: 3rem;
+  }
+
+
+}

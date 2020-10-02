@@ -74,6 +74,9 @@
   margin-left: 1rem;
 }
 
+
+/*media querys*/
+
 @media only screen and (max-width: 800px) {
 
   .footer {
@@ -84,6 +87,10 @@
   .footer__left {
     width: 70%;
     margin-bottom: 3rem;
+  }
+
+  .footer__links-description {
+    text-align: center;
   }
 
 }

@@ -7,9 +7,6 @@
   justify-content: center;
   align-items: center;
   font-weight: 300;
-  /* background-image: url('../assets/img/container-bg-textures/pattern-bg.svg');
-  background-repeat: no-repeat;
-  background-position:  top right; */
   color: white;
 }
 
@@ -72,4 +69,53 @@
 .reco-my-slides {
   width: 50%;
   height: auto;
+}
+
+
+@media only screen and (max-width: 800px) {
+
+  .quienesSomos-quotes {
+    display: none;
+  }
+
+  .quienesSomos__equipo {
+    height: auto;
+  }
+
+  .quienesSomos__equipo-director {
+    flex-direction: column;
+    padding: 1rem;
+    text-align: left;
+  }
+
+  .quienesSomos__presentacion {
+    margin: 1rem 1.5rem;
+  }
+
+  .recomendaciones {
+   width: 100%;
+   height: auto;
+   padding: 1.5rem;
+   margin-bottom: 2rem;
+}
+
+  .recomendaciones__slider-button {
+    border: none;
+    height: 1.5rem;
+    width: 1.5rem;
+    border-radius: 50%;
+    margin: 0.5rem;
+    background-color: rgba(39,50,80,0.1);
+  }
+
+  .recomendaciones__slider-button:hover {
+    background-color: white;
+  }
+
+
+  .reco-my-slides {
+    width: 120%;
+    height: auto;
+  }
+
 }
