@@ -18,20 +18,19 @@
 
 .estrategia {
   width: 90%;
+  height: 40vh;
   margin: 0 auto;
   display: flex;
 }
 
 .estrategia__info {
-  margin: auto;
-  /* width: 60%; */
-  width: 30rem;
-  height: 80vh;
+  width: 60%;
+  height: 200%;
   border: 1px solid white;
   background-color: rgba(255,255,255,0.8);
   border-radius: 10px;
-  padding: 3.125rem;
   box-shadow: 2px 2px 20px rgba(0,0,0,0.2);
+  padding: 1.5rem;
 }
 
 .estrategia__info-title {
@@ -93,8 +92,7 @@
 
   .estrategia {
     width: 90%;
-    height: 40vh;
-    margin: 0 auto;
+    height: auto;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -105,14 +103,14 @@
   }
 
   .estrategia__info {
-    width: 90%;
-    height: 30vh;
+    width: 100%;
+    height: auto;
     border: 1px solid white;
     margin-top: 5rem;
   }
 
   .estrategia__info-title {
-    font-size: 3rem;
+    font-size: 2rem;
     text-align: center;
   }
 

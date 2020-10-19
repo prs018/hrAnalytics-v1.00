@@ -74,6 +74,7 @@
 @media only screen and (max-width: 800px) {
 
   .concepto {
+    margin-top: 10rem;
     flex-direction: column;
     height: auto;
     font-size: 1rem;
@@ -81,15 +82,24 @@
 
   .concepto__card {
     width: 95%;
-    height: 40vh;
+    height: 50vh;
   }
 
   .concepto__card-fondoDeTexto {
     width: 100%;
-    height: 50%;
+    height: 80%;
     background-color: rgba(0,0,0,0.9);
   }
 
+  .concepto__logo {
+      width: 3rem;
+      height: 3rem;
+  }
+
+  .concepto__logo-img {
+    width: 1rem;
+    height: auto;
+}
   .concepto__card-description {
     font-weight: 300;
     line-height: 1rem;

@@ -102,6 +102,10 @@
   line-height: 1.8rem;
 }
 
+.noHover {
+
+}
+
 @media only screen and (max-width: 800px) {
   .novedades {
     height: auto;
@@ -162,16 +166,8 @@
     border-top-right-radius: 15px;
   }
 
-  .novedades__img-1:hover {
-    transform: none;
-  }
-
-  .novedades__img-2:hover {
-    transform: none;
-  }
-
-  .novedades__img-3:hover {
-    transform: none;
+  .noHover {
+    pointer-events: none;
   }
 
 }
