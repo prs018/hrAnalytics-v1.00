@@ -92,8 +92,7 @@
   }
 
   .concepto__logo {
-      width: 3rem;
-      height: 3rem;
+    display: none;
   }
 
   .concepto__logo-img {
