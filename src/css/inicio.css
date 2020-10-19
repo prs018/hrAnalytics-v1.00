@@ -80,6 +80,7 @@
 
 /*media querys*/
 @media only screen and (max-width: 800px) {
+
   .container__estrategia {
     width: 100%;
     height: auto;
@@ -91,20 +92,28 @@
   }
 
   .estrategia {
-    width: 100%;
-    height: auto;
+    width: 90%;
+    height: 40vh;
     margin: 0 auto;
     display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .estrategia__img {
+    display: none;
   }
 
   .estrategia__info {
     width: 90%;
-    height: auto;
+    height: 30vh;
     border: 1px solid white;
+    margin-top: 5rem;
   }
 
   .estrategia__info-title {
     font-size: 3rem;
+    text-align: center;
   }
 
   .estrategia__img-fondo {

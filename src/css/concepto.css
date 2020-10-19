@@ -2,7 +2,7 @@
 
 .concepto {
   width: 100%;
-  height: 100vh;
+  height: auto;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -31,8 +31,7 @@
 .concepto__card-fondoDeTexto {
   background-color: rgba(0,0,0,0.9);
   width: 100%;
-  min-height: 55vh;
-  height: auto;
+  height: 55vh;
   color: white;
   padding: 1rem;
   display: flex;
@@ -82,6 +81,13 @@
 
   .concepto__card {
     width: 95%;
+    height: 40vh;
+  }
+
+  .concepto__card-fondoDeTexto {
+    width: 100%;
+    height: 50%;
+    background-color: rgba(0,0,0,0.9);
   }
 
   .concepto__card-description {

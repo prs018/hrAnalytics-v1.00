@@ -1,5 +1,4 @@
 /*----------------quienes somos--------------*/
-
 .quienesSomos {
   padding-top: 2rem;
   height: auto;
@@ -29,7 +28,7 @@
   height: 12rem;
   background-image: url('../assets/img/section/equipo/avatar.jpg');
   background-size: cover;
-  background-repeat:  no-no-repeat;
+  background-repeat: no-no-repeat;
   background-position: center;
   border-radius: 50%;
 }
@@ -43,13 +42,13 @@
 }
 
 .recomendaciones {
- height: 30%;
- display: flex;
- justify-content: center;
- align-items:center;
- background-color: #eee;
- background-image: url('../assets/img/container-bg-textures/bg-intro-desktop.png');
- background-size: cover;
+  height: 40vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #eee;
+  background-image: url('../assets/img/container-bg-textures/bg-intro-desktop.png');
+  background-size: cover;
 }
 
 .recomendaciones__slider-button {
@@ -58,22 +57,19 @@
   width: 3.5rem;
   border-radius: 50%;
   margin: 1rem;
-  background-color: rgba(39,50,80,0.1);
+  background-color: rgba(39, 50, 80, 0.1);
 }
 
 .recomendaciones__slider-button:hover {
   background-color: white;
 }
 
-
 .reco-my-slides {
   width: 50%;
   height: auto;
 }
 
-
 @media only screen and (max-width: 800px) {
-
   .quienesSomos-quotes {
     display: none;
   }
@@ -93,29 +89,10 @@
   }
 
   .recomendaciones {
-   width: 100%;
+    /* width: 100%;
    height: auto;
    padding: 1.5rem;
-   margin-bottom: 2rem;
-}
-
-  .recomendaciones__slider-button {
-    border: none;
-    height: 1.5rem;
-    width: 1.5rem;
-    border-radius: 50%;
-    margin: 0.5rem;
-    background-color: rgba(39,50,80,0.1);
+   margin-bottom: 2rem; */
+    display: none;
   }
-
-  .recomendaciones__slider-button:hover {
-    background-color: white;
-  }
-
-
-  .reco-my-slides {
-    width: 120%;
-    height: auto;
-  }
-
 }

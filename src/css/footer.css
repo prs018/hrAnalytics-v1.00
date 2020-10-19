@@ -91,6 +91,7 @@
 
   .footer__links-description {
     text-align: center;
+    display: none;
   }
 
 }
