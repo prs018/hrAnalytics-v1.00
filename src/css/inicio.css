@@ -87,15 +87,25 @@
     width: 100%;
     height: auto;
     background-image: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 
   .container__estrategia-2 {
-    background-image: none;
+    width: 90%;
+    background-image: url('../assets/img/container-bg-textures/elegida.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
     height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 
   .estrategia {
-    width: 90%;
+    width: 100%;
     height: auto;
     display: flex;
     justify-content: center;
@@ -109,13 +119,23 @@
   .estrategia__info {
     width: 100%;
     height: auto;
-    border: 1px solid white;
+    border: none;
     margin-top: 5rem;
+    background-color: rgba(0,0,0,0.1);
   }
 
   .estrategia__info-title {
     font-size: 2rem;
     text-align: center;
+    background-color: rgba(255,255,255,0.8);
+    border-radius: 15px;
+  }
+
+  .estrategia__info-description {
+    background-color: rgba(255,255,255,0.8);
+    border-radius: 15px;
+    padding: 1rem;
+    font-weight: 400;
   }
 
   .estrategia__img-fondo {
