@@ -10,6 +10,7 @@
 }
 
 .container__estrategia-2 {
+  height: 100vh;
   background-image: url('../assets/img/container-bg-textures/triangulos.png');
   background-repeat: no-repeat;
   background-position: right;
@@ -21,6 +22,7 @@
   height: 40vh;
   margin: 0 auto;
   display: flex;
+  justify-content: center;
 }
 
 .estrategia__info {
@@ -31,6 +33,7 @@
   border-radius: 10px;
   box-shadow: 2px 2px 20px rgba(0,0,0,0.2);
   padding: 1.5rem;
+  margin-top: 5rem;
 }
 
 .estrategia__info-title {
@@ -66,15 +69,15 @@
 }
 
 .estrategia__img {
-  width: 60rem;
+  width: 100%;
   height: 100vh;
   display: flex;
   justify-content: right;
   align-items: center;
+  overflow: hidden;
 }
 
 .estrategia__img-fondo {
-  width: 85%;
 }
 
 /*media querys*/
@@ -88,6 +91,7 @@
 
   .container__estrategia-2 {
     background-image: none;
+    height: auto;
   }
 
   .estrategia {
