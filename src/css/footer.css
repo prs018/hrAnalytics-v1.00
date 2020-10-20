@@ -1,7 +1,7 @@
 /*----------------footer---------------------*/
 
 .footer {
-  height: 100vh;
+  height: auto;
   background-color: #313132;
   color: #eee;
   display: flex;
@@ -12,6 +12,7 @@
   margin: 0 auto;
   margin-top: 5rem;
   width: 25%;
+  height: auto;
 }
 
 .footer__left-top {
@@ -34,7 +35,7 @@
 .footer__logo {
   width: 6rem;
   height: auto;
-  background-color: #ccc;
+  background-color: rgba(0,0,0,0.3);
   padding: 0.8rem;
   border-radius: 5px;
 }
