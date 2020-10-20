@@ -1,7 +1,9 @@
 /*------------------Menú-------------------*/
 .header__nav-bar {    /*conjunto del menú*/
+  width: 100%;
   margin-right: 20px;
   line-height: 3rem;
+  justify-content: flex-end;
 }
 
 .nav-bar__link {  /*anclas A del menú*/
@@ -23,13 +25,14 @@
 
 @media only screen and (max-width: 800px) {
   .header__nav-bar {
-    line-height: 1rem;
     width: 100%;
+    justify-content: space-between;
   }
 
   .nav-bar__item {
-    padding: 0.3rem;
     font-size: 0.8rem;
+    font-weight: 400;
+    padding: 0;
   }
 
 }
