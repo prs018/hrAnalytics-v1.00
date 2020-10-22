@@ -10,8 +10,8 @@
 }
 
 .header__logo-img {
-  background-color: rgba(0,0,0,0.9);
-  /* background-color: #ccc; */
+  /* background-color: darkgray; */
+  background-color: #282721;
   border-bottom-right-radius: 50%;
   border-bottom-left-radius: 50%;
   width: 4.5rem;
