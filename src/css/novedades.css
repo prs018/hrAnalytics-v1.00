@@ -25,6 +25,49 @@
   grid-template-columns: 30% 70%;
 }
 
+.novedades__post-vaca {
+  border-radius: 15px 0 0 15px;
+  background-color: white;
+  display: flex;
+  align-items: center;
+}
+
+.novedades__img-vaca {
+  width: 100%;
+  height: auto;
+}
+
+.novedades__img-vaca:hover {
+  transform: scale(0.7);
+  transition: 0.5s;
+  position: absolute;
+  float: left;
+  top: 100;
+  left: 0;
+}
+
+.novedades__post-carla {
+  border-radius: 15px 0 0 15px;
+  background-color: white;
+  display: flex;
+  align-items: center;
+}
+
+.novedades__img-carla {
+  width: 100%;
+  height: auto;
+}
+
+.novedades__img-carla:hover {
+  transform: scale(0.7);
+  transition: 0.5s;
+  position: absolute;
+  float: left;
+  top: 100;
+  left: 0;
+}
+
+
 .novedades__post-1 {
   border-radius: 15px 0 0 15px;
   background-color: white;
@@ -134,6 +177,27 @@
   .novedades__text-description {
     line-height: 1.5rem;
   }
+
+  .novedades__post-vaca {
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+  }
+
+  .novedades__img-vaca {
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+  }
+
+  .novedades__post-carla {
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+  }
+
+  .novedades__img-carla {
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+  }
+
 
 
   .novedades__post-1 {
