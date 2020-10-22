@@ -35,7 +35,8 @@
 .footer__logo {
   width: 6rem;
   height: auto;
-  background-color: rgba(0,0,0,0.3);
+  /* background-color: rgba(0,0,0,0.3); */
+  background-color: #282721;
   padding: 0.8rem;
   border-radius: 5px;
 }
