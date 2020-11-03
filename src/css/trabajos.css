@@ -4,10 +4,6 @@
   color: white;
   height: auto;
   text-align: center;
-  background-image: url('../assets/img/container-bg-textures/pattern-curve.svg');
-  background-repeat: no-repeat;
-  background-position: bottom;
-  background-size: contain;
   padding-top: 2rem;
 }
 
