@@ -3,23 +3,12 @@
 .container__estrategia {
   width: 100%;
   height: auto;
-  background-image: url('../assets/img/container-bg-textures/purple-curve.png');
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-position: left;
 }
 
-.container__estrategia-2 {
-  height: 100vh;
-  background-image: url('../assets/img/container-bg-textures/triangulos.png');
-  background-repeat: no-repeat;
-  background-position: right;
-  background-size: 60%;
-}
 
 .estrategia {
-  width: 90%;
-  height: auto;
+  width: 100%;
+  height: 100vh;
   margin: 0 auto;
   display: flex;
   justify-content: center;
@@ -27,28 +16,30 @@
 
 .estrategia__info {
   width: 60%;
-  height: auto;
+  height: 50%;
   border: 1px solid white;
-  background-color: rgba(255,255,255,0.8);
+  background-color: rgba(255,255,255,0.7);
   border-radius: 10px;
   box-shadow: 2px 2px 20px rgba(0,0,0,0.2);
   padding: 1rem;
-  margin-top: 4rem;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
+  margin-left: 2rem;
+  margin-top: 10rem;
 }
 
 .estrategia__info-title {
   color: #4b6584; /*blue horizon german palette*/
-  font-size: 3.5rem;
+  font-size: 3rem;
   font-weight: 700; /*100 , 300 , 500 , 700*/
 }
 
 .estrategia__info-description {
   color: #2e3440;
   font-weight: 300; /*100 , 300 , 500 , 700*/
+  
 }
 
 .estrategia__info-button-link {
@@ -57,6 +48,7 @@
 .estrategia__info-button {
   cursor: pointer;
   height: 2.5rem;
+  width: 20rem;
   text-align: center;
   background-color: #3867d6; /*royal blue german pallet*/
   border-radius: 10px;
@@ -79,10 +71,12 @@
   display: flex;
   justify-content: right;
   align-items: center;
-  overflow: hidden;
 }
 
 .estrategia__img-fondo {
+  width: 90%;
+  height: auto;
+  margin-left: 4rem;
 }
 
 /*media querys*/
